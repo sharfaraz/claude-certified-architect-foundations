@@ -20,13 +20,12 @@ Your study material focuses on content but doesn't cover exam logistics, which h
 | Cost | Check Anthropic certification portal |
 | Accommodations | Available via Pearson VUE |
 
-**Note**: Your material says 60 questions and 720 passing score — the official guide states **65 questions** and **750/1000** passing score. Update your mental model accordingly.
+
 
 ---
 
-## 2. Official Domain Weightings (Corrected)
+## 2. Official Domain Weightings 
 
-The exam guide lists these domains (verify against your PDF — the encoding was binary so I'm cross-referencing with community sources):
 
 | Domain | Name | Weight |
 |--------|------|--------|
@@ -36,13 +35,12 @@ The exam guide lists these domains (verify against your PDF — the encoding was
 | 4 | Prompt Engineering & Structured Output | ~20% |
 | 5 | Context Management & Reliability | ~15% |
 
-Your study material has these correct. The exam guide title says "Developer Foundations" (not just "Foundations") — this is the official full name.
+
 
 ---
 
-## 3. Extended Thinking (Gap in Study Material)
+## 3. Extended Thinking
 
-Your Day 9 mentions extended thinking briefly in passing, but it's an exam-relevant topic that deserves more coverage.
 
 ### Key Facts for Exam
 
@@ -85,9 +83,7 @@ response = client.messages.create(
 
 ---
 
-## 4. Prompt Caching (Gap — Only Briefly Mentioned)
-
-Your study material mentions `cache_control` in Day 2 but doesn't cover the exam-relevant details.
+## 4. Prompt Caching 
 
 ### Key Facts
 
@@ -132,8 +128,6 @@ response = client.messages.create(
 
 ## 5. Server-Side Tools (Web Search, Code Execution)
 
-Your material mentions server tools briefly but doesn't cover their exam-relevant specifics.
-
 ### Web Search Tool
 
 - Enabled with `type: "web_search_20250305"` in the tools array
@@ -157,9 +151,8 @@ Server tools: Anthropic defines → Claude calls → ANTHROPIC executes → resu
 
 ---
 
-## 6. Streaming API Details (Gap)
+## 6. Streaming API Details 
 
-Your material covers streaming lightly. For the exam:
 
 ### Event Types in Order
 
@@ -189,7 +182,7 @@ with client.messages.stream(...) as stream:
 
 ---
 
-## 7. Token Counting API (Gap)
+## 7. Token Counting API 
 
 The exam may test your knowledge of the token counting endpoint:
 
@@ -213,7 +206,6 @@ print(token_count.input_tokens)  # e.g., 42
 
 ## 8. Vision/Multimodal Input (Gap)
 
-Your material barely covers image input, which is exam-relevant:
 
 ### Sending Images to Claude
 
@@ -299,7 +291,7 @@ Is it high-volume, latency-sensitive, or simple classification?
 
 ---
 
-## 11. Safety and Content Filtering (Gap)
+## 11. Safety and Content Filtering 
 
 ### Refusal Handling
 
@@ -318,15 +310,6 @@ The exam tests whether you understand:
 - Cost controls (budget limits, max_turns)
 - Principle of least privilege (restricted tool access)
 
----
-
-## 12. Corrections to Study Material
-
-| Topic | Study Material Says | Correct Value |
-|-------|-------------------|---------------|
-| Question count | 60 | **65** |
-| Passing score | 720/1000 | **750/1000** |
-| Model names | Some use older naming | Use latest: `claude-sonnet-4-20250514`, `claude-opus-4-7` |
 
 ---
 
@@ -350,20 +333,4 @@ Based on community feedback about the exam:
 
 ---
 
-## Summary
 
-Your `ALL_DAYS_STUDY_MATERIAL.md` covers approximately **85-90%** of what's needed. The main gaps are:
-
-1. Extended thinking details
-2. Prompt caching mechanics
-3. Server-side tools specifics
-4. Vision/multimodal input
-5. PDF document input
-6. Token counting API
-7. Exam logistics corrections (65 questions, 750 passing)
-
-Study your main material for depth on all 5 domains. Use this addendum to fill the remaining gaps. Together they should provide comprehensive exam preparation.
-
----
-
-*Sources: Official Anthropic exam guide (July 2026), Anthropic documentation, community study resources. Content was rephrased for compliance with licensing restrictions.*
