@@ -51,3 +51,4 @@ Study material for the Claude Certified Architect Foundations track — one file
 | 43  | [Day 43](DAY_43_STUDY_MATERIAL.md) |
 | 44  | [Day 44](DAY_44_STUDY_MATERIAL.md) |
 | 45  | [Day 45](DAY_45_STUDY_MATERIAL.md) |
+| 50  | [July Update - Additional Topics](CCA-F_ADDENDUM.md) |
